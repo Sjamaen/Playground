@@ -42,5 +42,21 @@ Met dit commando, maak je een groen gekleurd bestand weer rood. Je haalt hem dus
     git rm [bestandsnaam]
 
 
+## Veranderingen van andere mensen binnen halen
+Soms zijn er dingen veranderd die je zelf nodig hebt, dan moet je deze dingen ophalen van github. 
+Dit doe je in 2 stappen
+
+### Fetch
+Met fetch, download je alle commits van github maar deze worden nog niet toegepast op je locale bestanden, dat doen we in de 2e stap
+
+    git fetch origin
+    
+### Merge
+Met merge passen we alle gedownloaden commits toe op de lokale bestanden 
+
+    git merge origin/master
+
+
+
 
 

@@ -8,4 +8,8 @@ window.onload = function(){
       divResult.innerHTML = "Het resultaat is " + result;
   }, false)
 }
-alert("Fijne Dag");
+
+alert("Byebye");
+alert("tot ziens");
+alert('Au revoir');
+
