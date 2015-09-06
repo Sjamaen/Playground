@@ -10,3 +10,6 @@ window.onload = function(){
 }
 
 alert("Byebye");
+alert("tot ziens");
+alert('Au revoir');
+
