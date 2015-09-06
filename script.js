@@ -8,3 +8,4 @@ window.onload = function(){
       divResult.innerHTML = "Het resultaat is " + result;
   }, false)
 }
+alert("DOEI");
